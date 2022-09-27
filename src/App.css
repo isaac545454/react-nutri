@@ -1,0 +1,41 @@
+.quadrado{
+  width: 600px;
+  padding: 20px;
+}
+
+.quadrado img{
+  width: 100%;
+}
+
+.quadrado h2{
+  margin-top: 6px;
+  text-align: center;
+}
+.quadrado p{
+  margin-top: 10px;
+ 
+  text-align: center;
+  line-height: 1.4;
+}
+.quadrado .btn{
+  margin-top: 10px;
+  width: 100%;
+  padding: 14px;
+  border: none;
+  transition: .5s;
+  background-color: white;
+  color:rgb(39, 173, 226);
+  border: 1px solid rgb(39, 173, 226);
+  font-weight: bold;
+  font-size: 100%;
+}
+.quadrado .btn:hover{
+  background-color: rgb(39, 173, 226);
+  color: white;
+}
+@media (max-width: 450px) {
+  .quadrado{
+    width: 300px;
+  }
+
+}
